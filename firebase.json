@@ -1,0 +1,38 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "smart-chata-486f1",
+          "appId": "1:594081431498:android:fd720b1f2da01db22fd933",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "smart-chata-486f1",
+          "configurations": {
+            "android": "1:594081431498:android:fd720b1f2da01db22fd933",
+            "ios": "1:594081431498:ios:1471124b8092312e2fd933",
+            "web": "1:594081431498:web:741ebf1a83205a0f2fd933",
+            "windows": "1:594081431498:web:62ad9776482061a12fd933"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
